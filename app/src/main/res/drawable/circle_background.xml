@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
-    <solid android:color="#8B0909"
-         />
-</shape>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the oval shape -->
+    <item>
+        <shape
+            android:shape="oval">
+            <solid android:color="#686E6E" />
+        </shape>
+    </item>
+    <!-- Place your image on top of the oval shape -->
+    <item android:drawable="@drawable/mirrorball" />
+</layer-list>

@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the rounded background -->
+    <item>
+        <shape
+            android:shape="rectangle">
+             <!-- Set your desired background color -->
+        <!-- Adjust the radius to control the roundness -->
+        </shape>
+    </item>
+    <!-- Place your platform image on top of the rounded background -->
+    <item android:drawable="@drawable/erasplatform400" />
+</layer-list>

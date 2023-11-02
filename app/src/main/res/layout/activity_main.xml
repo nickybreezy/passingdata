@@ -9,17 +9,19 @@
     <View
         android:id="@+id/platform"
         android:layout_width="200dp"
-        android:layout_height="20dp"
-        android:background="#0B420D"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/rounded_platform"
+        />
 
     <ImageView
         android:id="@+id/player"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="545dp"
+        android:layout_above="@id/platform"
         android:background="@drawable/circle_background" />
 
     <Button
